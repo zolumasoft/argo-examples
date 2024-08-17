@@ -8,7 +8,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: mycontainer
-        image: "devopsjourney1/mywebapp:latest"
+        image: "zoluma/flask-greeting:latest"
         ports:
         - containerPort: 80
         envFrom:
